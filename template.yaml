@@ -10,7 +10,7 @@ Resources:
         - ResourceName: Function
       CodeUri: src/Function
       Handler: Handler::handler
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
